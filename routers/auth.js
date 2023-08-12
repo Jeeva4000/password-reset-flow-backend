@@ -34,7 +34,7 @@ user.resetToken = randomString;
 await user.save();
 
   // Send the reset password link to the user's email
-    // const resetLink = `https://serene-churros-d3cac2.netlify.app/resetpassword/${randomString}`; 
+    const resetLink = `https://64d7ae210c870d163a25204c--gentle-lokum-1a74a4.netlify.app/resetpassword/${randomString}`; 
 
   // Define the sendResetEmail function
 const sendResetEmail = (email, resetLink) => {
